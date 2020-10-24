@@ -1,13 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {StyleSheet, View,  Text, TouchableOpacity, FlatList} from "react-native";
-
+import Auth  from './Auth';
 
 export default function FriendsList() {
-    return(
-        <View>
-            <Text>Hola mundo</Text>
-        </View>
-    );
+
 }
 const styles = StyleSheet.create({
 
